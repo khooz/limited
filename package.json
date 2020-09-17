@@ -1,0 +1,30 @@
+{
+  "name": "limited",
+  "version": "0.0.1",
+  "description": "Rate-limit control for requests and more",
+  "main": "./dest/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc -p ./",
+    "test": "node ./example/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khooz/limited.git"
+  },
+  "keywords": [
+    "rate",
+    "limit",
+    "ratelimit"
+  ],
+  "author": "Mustafa Talaeezadeh Khouzani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khooz/limited/issues"
+  },
+  "homepage": "https://github.com/khooz/limited#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
